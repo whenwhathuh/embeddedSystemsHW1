@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Fri Feb 24 11:57:18 2017">
+<application name="pa" timeStamp="Mon Feb 27 18:26:24 2017">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="3c8220d012dc455fbbd234efa64b4365" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -17,20 +17,173 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
-<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="AddSources" value="6" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
-<property name="SaveFileProxyHandler" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="7" type="JavaHandler"/>
+<property name="SimulationRun" value="4" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="2" type="GuiResourceData"/>
-<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
-<property name="lookup_table.vhd, 603, 192" value="1" type="GuiResourceData"/>
+<property name="CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="4" type="GuiResourceData"/>
+<property name="NEXT, Next " value="4" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, counter_lookup" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, sim_counter" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, sim_counter_lookup" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, sim_lookup_table" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; in ; false ; 0 ; 0, 0, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, 15, 2, MSB, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, clk, 0, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, count, 1, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, data_out ; in ; false ; 0 ; 0, 2, in, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, data_out ; out ; false ; 0 ; 0, 2, false, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, data_out ; out ; true ; 0 ; 0, 2, 0, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, data_out, 2, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, out, 2, Direction, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, 1 critical warning" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, counter - Behavioral (counter.vhd" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, counter_lookup - Behavioral (counter_lookup.vhd" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, lookup_table - Behavioral (lookup_table.vhd" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, sim_counter.vhd], 8, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, sim_counter_lookup.vhd], 8, false" value="10" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, sim_counter_lookup.vhd], 8, false, false, false, false, false, true" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, sim_counter_lookup.vhd], 8, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 7" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 7, true" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, counter_lookup - Behavioral (counter_lookup.vhd" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, sim_counter - Behavioral (sim_counter.vhd" value="9" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, sim_counter_lookup - Behavioral (sim_counter_lookup.vhd" value="7" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, sim_lookup_table - Behavioral (sim_lookup_table.vhd" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 6" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 5" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Project Settings], 1, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near 20. [C:/Users/User/embedded/hw1/hw1.srcs/sim_1/new/sim_counter.vhd:54]. ], 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="4" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="3" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="11" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_IN, Waveform Viewer_zoom_in" value="3" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_OUT, Waveform Viewer_zoom_out" value="33" type="GuiResourceData"/>
+<property name="RDIResource.PropertiesView_SELECT_OBJECT, Properties_select" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 158, 263, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 23, -33" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 277, 153" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 285, 760" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 316, 117" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 4, -14" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 403, 49" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_COPY, Copy" value="2" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_SAVE_FILE, Save File" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_SAVE_FILE_AS, Save File As..." value="1" type="GuiResourceData"/>
+<property name="counter.vhd, 213, 235" value="1" type="GuiResourceData"/>
+<property name="counter.vhd, 377, 367" value="1" type="GuiResourceData"/>
+<property name="counter.vhd, 51, 24" value="1" type="GuiResourceData"/>
+<property name="counter.vhd, 77, 329" value="1" type="GuiResourceData"/>
+<property name="counter_lookup.vhd, 131, 641" value="1" type="GuiResourceData"/>
+<property name="counter_lookup.vhd, 163, 518" value="1" type="GuiResourceData"/>
+<property name="counter_lookup.vhd, 211, 215" value="1" type="GuiResourceData"/>
+<property name="counter_lookup.vhd, 361, 483" value="1" type="GuiResourceData"/>
+<property name="counter_lookup.vhd, 367, 448" value="1" type="GuiResourceData"/>
+<property name="counter_lookup.vhd, 398, 421" value="1" type="GuiResourceData"/>
+<property name="counter_lookup.vhd, 4, 41" value="1" type="GuiResourceData"/>
+<property name="counter_lookup.vhd, 437, 271" value="1" type="GuiResourceData"/>
+<property name="counter_lookup.vhd, 52, 432" value="1" type="GuiResourceData"/>
+<property name="counter_lookup.vhd, 599, 312" value="1" type="GuiResourceData"/>
+<property name="counter_lookup.vhd, 74, 262" value="1" type="GuiResourceData"/>
+<property name="counter_lookup.vhd, 78, 646" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 135, 689" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 158, 319" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 158, 319, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 159, 573" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 182, 508" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 201, 570, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 230, 375" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 236, 405" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 24, 342" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 292, 400" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 301, 435" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 328, 399" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 350, 579" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 44, 600" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 445, 498" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 53, 261" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 536, 552" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 554, 490" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 579, 509" value="1" type="GuiResourceData"/>
+<property name="lookup_table.vhd, 89, 631" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 101, 318" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 104, 350" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 104, 401" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 104, 418" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 105, 339" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 131, 226" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 133, 416" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 135, 296" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 137, 313" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 14, 6" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 148, 285" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 31, 231, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 32, 264, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 328, 315" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 421, 287" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 51, 329" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 53, 433" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 54, 465" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 55, 229" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 55, 454" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 60, 388" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 66, 372" value="1" type="GuiResourceData"/>
+<property name="sim_counter.vhd, 99, 345" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 101, 417" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 103, 402" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 109, 517" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 112, 548" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 117, 680" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 136, 535" value="2" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 137, 384" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 153, 236" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 158, 324" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 159, 199" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 160, 330" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 169, 229" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 174, 452" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 205, 230" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 215, 485" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 292, 549" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 368, 365" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 42, 346" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 445, 416" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 608, 266" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 82, 448" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 82, 553" value="1" type="GuiResourceData"/>
+<property name="sim_counter_lookup.vhd, 94, 552" value="1" type="GuiResourceData"/>
+<property name="sim_lookup_table.vhd, 104, 364" value="1" type="GuiResourceData"/>
+<property name="sim_lookup_table.vhd, 171, 439" value="1" type="GuiResourceData"/>
+<property name="sim_lookup_table.vhd, 188, 420" value="1" type="GuiResourceData"/>
+<property name="sim_lookup_table.vhd, 208, 215" value="1" type="GuiResourceData"/>
+<property name="sim_lookup_table.vhd, 292, 438" value="1" type="GuiResourceData"/>
+<property name="sim_lookup_table.vhd, 293, 380" value="1" type="GuiResourceData"/>
+<property name="sim_lookup_table.vhd, 439, 416" value="1" type="GuiResourceData"/>
+<property name="sim_lookup_table.vhd, 58, 329" value="1" type="GuiResourceData"/>
+<property name="sim_lookup_table.vhd, 59, 420" value="1" type="GuiResourceData"/>
+<property name="sim_lookup_table.vhd, 60, 403" value="1" type="GuiResourceData"/>
+<property name="sim_lookup_table.vhd, 83, 434" value="1" type="GuiResourceData"/>
+<property name="sim_lookup_table.vhd, 89, 420" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="5" type="GuiMode"/>
+<property name="GuiMode" value="6" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="2" type="TclMode"/>
+<property name="TclMode" value="3" type="TclMode"/>
 </item>
 </section>
 </application>

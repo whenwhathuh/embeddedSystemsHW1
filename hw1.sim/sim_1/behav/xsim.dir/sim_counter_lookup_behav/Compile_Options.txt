@@ -1,0 +1,1 @@
+-wto "0d43aba5013248ebbfa9dc62d9b3cf34" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "sim_counter_lookup_behav" "xil_defaultlib.sim_counter_lookup" -log "elaborate.log" 

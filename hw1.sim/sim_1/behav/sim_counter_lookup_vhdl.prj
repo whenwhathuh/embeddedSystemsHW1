@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../hw1.srcs/sources_1/new/lookup_table.vhd"
+vhdl xil_defaultlib  "../../../hw1.srcs/sources_1/new/counter.vhd"
+vhdl xil_defaultlib  "../../../hw1.srcs/sources_1/new/counter_lookup.vhd"
+vhdl xil_defaultlib  "../../../hw1.srcs/sim_1/new/sim_counter_lookup.vhd"
+
+# Do not sort compile order
+nosort
